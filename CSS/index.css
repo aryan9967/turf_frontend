@@ -1,0 +1,85 @@
+.carousel_height{
+    height: 62vh;
+    width: 100%;
+}
+.act_carousel_h{
+    height: 62vh;
+    width: 100%; 
+}
+.act_carousel_h img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.heading_pop{
+    font-size: 3.2vh;
+}
+.act_pop_turf{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* height: 50vh; */
+}
+.turf{
+    width: 49.5%;
+    /* height: 25vh; */
+    margin-bottom: 11px;
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.turf_left{
+    width: 65%;
+    /* border-right: 1px solid black; */
+}
+.turf_right{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.turf_right img{
+    width: 95%;
+    height: 95%;
+    max-height: 22vh;
+    /* border: 1px solid black; */
+    object-fit: cover;
+}
+.turf_name{
+    font-size: 2.7vh;
+}
+.turf_desc{
+    font-size: 2.3vh;
+    color: rgb(104, 104, 104);
+    line-height: 20px;
+}
+.turf_location{
+    display: flex;
+    align-items: center;
+    font-size: 2.3vh;
+    color: rgb(80, 80, 80);
+}
+.turf_price{
+    display: flex;
+    align-items: center;
+    font-size: 2.5vh;
+    color: #34c334;
+}
+
+.turf_price .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 20
+}
+.book_btn{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    border: none;
+    background-color: rgba(52, 195, 52, 0.2);
+}

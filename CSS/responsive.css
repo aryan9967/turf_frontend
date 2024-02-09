@@ -1,0 +1,13 @@
+@media (max-width : 1200px) {
+    .complete_container{
+        width: 80vw;
+    }
+}
+@media (max-width : 980px) {
+    .complete_container{
+        width: 100vw;
+    }
+}
+@media (max-width : 768px){
+    
+}
