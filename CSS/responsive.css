@@ -9,5 +9,47 @@
     }
 }
 @media (max-width : 768px){
-    
+    .main_screen{
+        height: auto;
+        overflow: visible;
+        margin-top: 10vh;
+    }
+    .complete_container{
+        height: auto;
+    }
+    .act_pop_turf{
+        flex-direction: column;
+    }
+    .act_cont{
+        flex-direction: column;
+    }
+    .booking_container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .turf{
+        width: 100%;
+    }
+    .popular_tuf_cont{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .complete_container{
+        box-shadow: none;
+    }
+}
+@media (max-width : 600px) {
+    .carousel_height{
+        height: 50vh;
+    }
+}
+@media (max-width: 450px){
+    .popular_tuf_cont{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .booking_container{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }

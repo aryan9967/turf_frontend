@@ -1,0 +1,33 @@
+.turf_booking{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.turf_name{
+    font-size: 3.5vh;
+}
+.turf_desc{
+    font-size: 2.5vh;
+    color: rgb(104, 104, 104);
+    line-height: 20px;
+}
+.turf_address a{
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+    display: flex;
+    align-items: center;
+}
+.turf_contact a{
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+    display: flex;
+    align-items: center;
+}
+.rule_heading{
+    font-size: 2.8vh;
+}
+.rule{
+    font-size: 2.3vh;
+    margin-bottom: 0;
+}

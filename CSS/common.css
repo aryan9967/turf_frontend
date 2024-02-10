@@ -9,11 +9,28 @@
     height: 100vh;
     width: 70vw;
     margin: auto;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
 }
 .main_screen{
     height: 90vh;
     overflow: auto;
+    border: none;
+}
+.carousel_height{
+    height: 62vh;
+    width: 100%;
+}
+.inner_height{
+    height: 100%;
+}
+.act_carousel_h{
+    height: 100%;
+    width: 100%; 
+}
+.act_carousel_h img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .main_screen::-webkit-scrollbar {
     width: 0px;

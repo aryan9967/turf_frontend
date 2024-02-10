@@ -1,0 +1,81 @@
+.booking_container{
+    min-height: 90vh;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.booking_u_p_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #34c334;
+}
+.turf{
+    display: flex;
+    width: 49.5%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 11px;
+}
+.turf_left{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.turf_right{
+    width: 65%; 
+}
+.top_name{
+    display: flex;
+    justify-content: space-between;
+}
+.turf_location{
+    font-size: 2.3vh;
+    display: flex;
+    align-items: flex-start;
+}
+.turf_price{
+    display: flex;
+    align-items: center;
+}
+.turf_price .material-symbols-outlined{
+    font-size: 20px;
+}
+.booking_date .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 20
+}
+.turf_location .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 20
+  }
+.booking_date{
+    display: flex;
+    align-items: flex-start;
+    font-size: 2.3vh;
+}
+.turf_left img{
+    width: 95%;
+    height: 95%;
+    max-height: 22vh;
+    /* border: 1px solid black; */
+    object-fit: cover;
+}
+.act_cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media (max-width:768px) {
+    .main_screen{
+        margin-top: 11vh;
+    }
+
+}

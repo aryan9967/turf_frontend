@@ -1,16 +1,4 @@
-.carousel_height{
-    height: 62vh;
-    width: 100%;
-}
-.act_carousel_h{
-    height: 62vh;
-    width: 100%; 
-}
-.act_carousel_h img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
+
 .heading_pop{
     font-size: 3.2vh;
 }
@@ -21,6 +9,11 @@
     justify-content: space-between;
     flex-wrap: wrap;
     /* height: 50vh; */
+}
+.popular_tuf_cont{
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
 .turf{
     width: 49.5%;
